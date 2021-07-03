@@ -8,15 +8,20 @@ const Navbar = () => {
   return (
     <div>
       <Link to="/">Home</Link>
-      {user && <Link to="/dashboard">Dashboard</Link>}
-      {!user && (
-        <>
-          <Link to="/login">Login</Link>
-          <Link to="/signup">Signup</Link>
-        </>
-      )}
+      <Link to="/login">Login</Link>
+      <Link to="/signup">Signup</Link>
+      <Link to="/dashboard">Dashboard</Link>
+      <Link to="/test">Test</Link>
     </div>
   );
 };
 
 export default Navbar;
+
+// {user && <Link to="/dashboard">Dashboard</Link>}
+// {!user && (
+//   <>
+//     <Link to="/login">Login</Link>
+//     <Link to="/signup">Signup</Link>
+//   </>
+// )}

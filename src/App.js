@@ -1,14 +1,16 @@
-import React from "react";
-import { Route, BrowserRouter as Router } from "react-router-dom";
+import React from 'react';
+import { Route, BrowserRouter as Router } from 'react-router-dom';
 
-import ProtectedRoute from "./Auth/ProtectedRoute";
+import ProtectedRoute from './Auth/ProtectedRoute';
 
 //pages
-import Login from "./pages/login";
-import Home from "./pages/home";
-import Dashboard from "./pages/dashboard";
-import Signup from "./pages/signup";
-import Test from "./pages/test";
+import Login from './pages/login';
+import Home from './pages/home';
+import Dashboard from './pages/dashboard';
+import Signup from './pages/signup';
+import Test from './pages/test';
+
+//pushh
 
 function App() {
   return (
